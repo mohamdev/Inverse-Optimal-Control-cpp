@@ -20,9 +20,9 @@ This repository contains a C++ implementation of **Inverse Optimal Control (IOC)
 
 ### Libraries
 
-1. **[Ipopt](https://coin-or.github.io/Ipopt/)****\*\*\*\*\*\*\*\*:** An open-source software package for large-scale nonlinear optimization.
-2. **[CppADCodegen](https://github.com/joaoleal/CppADCodeGen)****\*\*\*\*\*\*\*\*:** Automatic differentiation with support for code generat[ion.](https://bitbucket.org/rmcantin/bayesopt/)
-3. **[BayesOpt](https://bitbucket.org/rmcantin/bayesopt/)****\*\*\*\*\*\*\*\*:** A library for Bayesian optimization.
+1. **[Ipopt](https://coin-or.github.io/Ipopt/):** An open-source software package for large-scale nonlinear optimization.
+2. **[CppADCodegen](https://github.com/joaoleal/CppADCodeGen):** Automatic differentiation with support for code generation.
+3. **[BayesOpt](https://github.com/rmcantin/bayesopt):** A library for Bayesian optimization.
 
 ### Tools
 
@@ -75,14 +75,6 @@ make
    ```bash
    ./apps/main_IOC_bayesopt
    ```
-
-## Contributing
-
-Contributions are welcome! Please fork the repository, create a branch, and submit a pull request with your improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
