@@ -6,9 +6,9 @@ This repository contains a fast deployable implementation of **Inverse Optimal C
 
 ## Features
 
-- **IOC:** Automatically determine the cost function weights for a system by observing optimal behavior.
+- **IOC:** Consists in determining the optimal cost function weights for a DOC, by observing optimal behavior.
 - **Bayesian Optimization:** Solves IOC by approximating DOC cost space through a surrogate model that is function of the costs weights.
-- **Direct Optimal Control (DOC):** Formulates the motion generation through the minimization of a weighted sum of cost functions
+- **Direct Optimal Control (DOC):** Formulates the motion generation problem as the minimization of a weighted sum of cost functions
 
 ## Requirements
 
