@@ -2,27 +2,22 @@
 
 ## Overview
 
-This repository contains a C++ implementation of **Inverse Optimal Control (IOC)**, leveraging:
-
-- **Bayesian Optimization** using the `bayesopt` library
-- **Direct Optimal Control (DOC)** powered by:
-  - **Ipopt** solver for optimization
-  - **CppADCodegen** for efficient gradient computation using Automatic Differentiation
+This repository contains a C++ implementation of **Inverse Optimal Control (IOC)** for box lifting task, leveraging **Bayesian Optimization** using the `bayesopt` implementation. **Direct Optimal Control (DOC)** is implemented through **Pinocchio** implementation of rigid bodies algorithms, **Ipopt** solver, and **CppADCodegen** for gradient computation.
 
 ## Features
 
-- **Inverse Optimal Control (IOC):** Automatically determine the cost function weights for a system by observing optimal behavior.
-- **Bayesian Optimization:** Efficiently explore and optimize the parameter space.
-- **Direct Optimal Control (DOC):** Solve constrained optimization problems efficiently.
-- **Fast Gradients:** Automatic differentiation with CppADCodegen for high performance.
+- **IOC:** Automatically determine the cost function weights for a system by observing optimal behavior.
+- **Bayesian Optimization:** Solves IOC by exploring the DOC cost space, in function of costs weights.
+- **Direct Optimal Control (DOC):** Formulates the motion generation through the minimization of a weighted sum of cost functions
 
 ## Requirements
 
 ### Libraries
 
-1. **[Ipopt](https://coin-or.github.io/Ipopt/):** An open-source software package for large-scale nonlinear optimization.
-2. **[CppADCodegen](https://github.com/joaoleal/CppADCodeGen):** Automatic differentiation with support for code generation.
-3. **[BayesOpt](https://github.com/rmcantin/bayesopt):** A library for Bayesian optimization.
+1. **[Pinocchio](https://github.com/stack-of-tasks/pinocchio):** state-of-the-art Rigid Body Algorithms for poly-articulated systems.
+2. **[Ipopt](https://coin-or.github.io/Ipopt/):** An open-source software package for large-scale nonlinear optimization.
+4. **[CppADCodegen](https://github.com/joaoleal/CppADCodeGen):** Automatic differentiation with support for code generation.
+5. **[BayesOpt](https://github.com/rmcantin/bayesopt):** A library for Bayesian optimization.
 
 ### Tools
 
