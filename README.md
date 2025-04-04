@@ -7,7 +7,7 @@ This repository contains a C++ implementation of **Inverse Optimal Control (IOC)
 ## Features
 
 - **IOC:** Automatically determine the cost function weights for a system by observing optimal behavior.
-- **Bayesian Optimization:** Solves IOC by exploring the DOC cost space, in function of costs weights.
+- **Bayesian Optimization:** Solves IOC by approximating DOC cost space through a surrogate model that is function of the costs weights.
 - **Direct Optimal Control (DOC):** Formulates the motion generation through the minimization of a weighted sum of cost functions
 
 ## Requirements
