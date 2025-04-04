@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a C++ implementation of **Inverse Optimal Control (IOC)** for box lifting task, leveraging **Bayesian Optimization** using the `bayesopt` implementation. **Direct Optimal Control (DOC)** is implemented through `Pinocchio` implementation of rigid bodies algorithms, `Ipopt` solver, and `CppADCodegen` for gradient computation.
+This repository contains a fast deployable implementation of **Inverse Optimal Control (IOC)** for planar box lifting task, formulated through **Bayesian Optimization** with `bayesopt` implementation. Costs of the **Direct Optimal Control (DOC)** are pre-compiled with `CppADCodegen` and `Pinocchio`. `Ipopt` solver is used to solve the DOC.
 
 ## Features
 
